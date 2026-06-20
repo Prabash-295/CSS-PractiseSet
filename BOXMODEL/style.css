@@ -1,0 +1,37 @@
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  height: 40px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.nameAndRole{
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+  border: 2px solid black;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Skills{
+  height: 150px;
+  width: 300px;
+  background-color: red;
+  border: 2px solid black;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.CGPA{
+  margin: 20px;
+  text-align: center;
+}
