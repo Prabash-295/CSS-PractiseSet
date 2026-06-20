@@ -1,0 +1,11 @@
+.FirstGen{
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: pink;
+}
+/* .secondGen{
+  display: flex;
+  justify-content: space-evenly;
+} */
