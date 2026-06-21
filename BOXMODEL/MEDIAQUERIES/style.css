@@ -1,0 +1,31 @@
+.parent{
+  height: 200px;
+  width: 400px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.child{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+@media(min-width: 768px){
+  .parent{
+    display: flex; 
+  }
+}
+@media(max-width: 768px){
+  .parent{
+    flex-wrap: wrap;
+  }
+  .child{
+    width: 45%;
+  }
+}
+@media(max-width: 480px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+  }
+}
