@@ -5,7 +5,9 @@
   align-items: center;
   background-color: pink;
 }
-/* .secondGen{
-  display: flex;
-  justify-content: space-evenly;
-} */
+@media (max-width: 480px){
+  .FirstGen{
+    display: flex;
+    flex-direction: column;
+  }
+}
