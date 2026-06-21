@@ -1,0 +1,12 @@
+.parent{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  /* grid-template-rows: 100px 100px 100px; */
+  gap: 20px;
+}
+.child{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  padding: 20px;
+}
