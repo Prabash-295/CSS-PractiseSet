@@ -15,3 +15,12 @@ const profile = {
   following : 4,
   isFollow : false,
 };
+let mode = "dark-mode";
+let colour;
+if(mode==="dark-mode"){
+  colour="black";
+}
+else{
+  colour="white";
+}
+console.log(colour);
