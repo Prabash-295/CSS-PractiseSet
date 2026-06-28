@@ -1,58 +1,34 @@
-//
-let input = prompt("Enter Your Full Name: ");
-let str1='@';
-console.log(str1.concat(input)+input.length);
+let numbers = [101, 102, 103,  104, 105];
 
-//
-const names = ["   Raju Kumar   ", "Alex", "Subbiah", "Dinesh", "RaviChander"];
-for(let temp of names){
-  console.log(temp.trim());
+// arrow function for each syntax
+numbers.forEach(temo => { 
+  console.log(temo);
+});
+
+let numbers2 = [1, 2, 3, 4, 5];
+
+numbers2.forEach(something);
+
+// arrow function parameters using string literals
+function something(val, idx, arr){
+  console.log(`Value of element at index ${idx} of ${arr} is: ${val}`);
 }
 
-//
-let marks = [85, 97, 44, 37 ,76 ,60];
-let sum = 0;
-for(let temp of marks){
-  sum+=temp;
+let numbers3 = [101, 102, 103, 104, 105];
+
+numbers3.forEach(something2);
+numbers3.forEach(printing);
+
+// updating value
+function something2(val, idx, arraya){
+  arraya[idx]*=2;
 }
-console.log(sum/marks.length);
 
-//
- let prices = [1, 105, 69];
-let temp2=prices.pop()
+let numbers4 = [1, 2, 3, 4 ,5];
 
-//
-const objCheck = {
-  name : "Prabash",
-  age : 21,
-  phone : "iqoo z6 pro",
-  cgpa : 7.00,
-};
-const abba="age";
-delete objCheck["cgpa"];
+numbers4.forEach(powered);
+numbers4.forEach(printed);
 
-//
-let names2 = ["Raju", "Rajesh", "Balaji"];
-names2 = names.toString();
-
-//
-let marks3 = [1, 2, 3, 4 ,5];
-let marks4 = [6, 7 ,8  ,9 ,10];
-let marks5 = [11, 12, 13 ,14 ,15];
-marks3=marks3.concat(marks4);
-marks3=marks3.concat(marks5);
-
-//
-const companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
-companies.shift();
-companies.splice(1,1,"OLA");
-companies.push("AMAZON");
-
-//
-let NumberOfVowels = (str) => {
-  let count = 0;
-  for(let i of str){
-    if(i==='a'||i==='e'||i==='i'||i==='o'||i==='u') count++;
-  }
-  return count;
+function powered(element, index, array){
+  array[index]=Math.pow(element, 2);
 }
