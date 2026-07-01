@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h1>Online Registration Form</h1>
+  <form>
+  
+    <fieldset>
+    <legend>Personal Information</legend>
+    <legend>First Name *</legend>
+    <label for="firstname"></label>
+    <input type="text" id="firstname" placeholder="Enter first name"> <br><br>
+    <legend>Last Name *</legend>
+    <label for="Lastname"></label>
+    <input type="text" id="Lastname" placeholder="Enter last name"> <br><br>
+    <legend>Email *</legend>
+    <label for="email"></label>
+    <input type="email" id="email" placeholder="abc@gmail.com"> <br><br>
+    <legend>Password *</legend>
+    <label for="pwd"></label>
+    <input type="password" id="pwd" placeholder=""> <br><br>
+    <legend>Mobile Number *</legend>
+    <label for="phNo"></label>
+    <input type="number" id="phNo" placeholder="9876543210"> <br><br>
+    <legend>Date of Birth</legend>
+    <label for="db"></label>
+    <input type="date" id="db"> <br><br>
+    <legend>Age</legend>
+    <label for="age"></label>
+    <input type="text" id="age" placeholder="enter your age here"> <br><br>
+    <legend>Gender</legend>
+    <label for="male"></label>
+    <input type="radio" id="male" value="Male">Male
+    <label for="female"></label>
+    <input type="radio" id="female" value="Female">Female
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Address</legend>
+    <input type="text"  col="100" rows="5" placeholder="Enter Full address"><br><br>
+    <legend>State</legend>
+    <select name="Country" id="ctr">
+      <option value="India">INDIA</option>
+      <option value="US">US</option>
+      <option value="RUSSIA">RUSSIA</option>
+      <option value="JAPAN">JAPAN</option>
+      <option value="SWISS">SWISS</option>
+    </select><br><br>
+    <legend>City</legend>
+    <input type="text">
+  </fieldset><br>
+  <fieldset>
+    <legend>Educational details</legend>
+    <legend>Highest Qualification</legend>
+    <select name="Qualification" id="eq">
+      <option value="Degree">degree</option>
+      <option value="12std">12std</option>
+      <option value="High School">High School</option>
+    </select><br><br>
+    <legend>University Name</legend>
+    <input type="text" placeholder=""><br><br>
+    <legend>Graduation Percentage</legend>
+    <input type="text" placeholder=""><br><br>
+  </fieldset>
+  <fieldset>
+    <legend>Professional Details</legend>
+    <legend>Years of Experience</legend>
+    <input type="text" placeholder=""><br><br>
+    <legend>Current Website</legend>
+    <input type="text" placeholder="https://example.com"><br><br>
+    <legend>Resume Upload</legend>
+    <input type="file">
+    <br><br>
+  </fieldset>
+  <fieldset>Skills</fieldset>
+  </form>
+</body>
+</html>
